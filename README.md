@@ -1,6 +1,6 @@
 # Welcome to our Natural Language Processing final project!
 
-This repository contains the .csv files and their iterations, the code we used to clean and analyze the data, the presentation, and final report with findings.
+This repository contains the final .csv files, the code we used to clean and analyze the data, the presentation, and final report with findings.
 
 # File Directory
 
