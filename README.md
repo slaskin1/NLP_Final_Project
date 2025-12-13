@@ -1,8 +1,25 @@
 # Welcome to our Natural Language Processing final project!
 
-This repository contains the final .csv files, the code we used to clean and analyze the data, the presentation, and final report with findings.
+# Urgent Care Reviews NLP Project
 
-# File Directory
+This project analyzes patient reviews of urgent-care clinics using natural language processing (NLP) techniques.
+The workflow includes data collection via the Google Places API, text preprocessing, sentiment analysis, topic modeling, and supervised learning to better understand patient experiences and feedback patterns.
+
+## Data Source
+- Public Google Maps reviews collected using the Google Places API
+
+## Preprocessing
+- Text normalization and lowercasing
+- Expansion of medical abbreviations (e.g., "dr" → "doctor")
+- Removal of doctor names
+- Tokenization and lemmatization
+
+## Methods
+- Sentiment analysis (polarity, subjectivity, NLTK compound)
+- Topic modeling using LDA
+- Supervised learning using review ratings as labels
+  
+## File Directory
 
 | **File Name**  | **Description** |
 | ------------- | ------------- |
@@ -12,10 +29,5 @@ This repository contains the final .csv files, the code we used to clean and ana
 | DataCollectionPreprocessingSA.ipynb | Preprocessing pipeline |
 | Supervised_Learning.ipynb | Colab with supervised learning code |
 
-*We also have the .pptx presentation and .docx which are included in the final deliverables for the project.*
-
-## Important:
-The Colab file notes file locations as Drive- that language has to be changed to reflect the repository to use the .csv files
-https://drive.google.com/drive/folders/16LDkqbbAEDUEG0tUv0ABJvZM-t5PqPur?usp=sharing
 
 
